@@ -229,9 +229,6 @@
       $(this).addClass("active-tag");
       $(".active-tag").focus();
 
-      console.log(this);
-      // documentQuerrySelector(".active-tag").style.background = "#BEB45A";
-
       var tag = $(this).data("images-toggle");
 
       $(".gallery-item").each(function () {
